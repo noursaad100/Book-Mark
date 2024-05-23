@@ -1,0 +1,60 @@
+body{
+    font-family: "PT Sans Caption", sans-serif;
+    background-color: #f8cae9;
+}
+
+
+.container>h1{
+    font-family: "Pacifico";
+    font-size: 50px; 
+   
+ }
+ .container>h1::before{
+    content: '';
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    background-color: #e224c9;
+    bottom: 15px;
+    z-index: -1;
+    transition: height 350ms;
+ }
+.container>h1:hover::before{
+    height: 50%;
+}
+.bookMarkBody{
+    border-style: dotted !important;
+    
+}
+h2{
+
+    font-family: "Righteous";
+
+    background-image: linear-gradient(to right, #da03c8, #fcea2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#submiteBtn{
+    --bs-btn-bg: #f56ede ;
+    --bs-btn-border-color: #f192f1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #94c9fd;
+    --bs-btn-hover-border-color: #a6e8f8;
+}
+.form-control:focus{
+    border-color: #d99c39 !important;
+    box-shadow: 0 0 0 0.25rem #fec26055;
+}
+
+
+.btn-visit{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3b6fb2;
+    --bs-btn-border-color: #3b82b2;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8a9e23;
+    --bs-btn-hover-border-color: #6e8018;
+}
+
+
